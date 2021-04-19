@@ -106,4 +106,3 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsWon = 0;
     createBoard();
 });
-

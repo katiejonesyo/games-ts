@@ -26,6 +26,7 @@ h1, h2, h3 {
     align-content: center;
     height: 600px;
     width: 600px;
+    background-color: rgb(255, 255, 255);
 }
 
 .square {

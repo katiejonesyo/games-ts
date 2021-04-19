@@ -30,6 +30,7 @@ h1, h2, h3 {
 .grid div {
     width: 20px;
     height: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .snake {

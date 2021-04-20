@@ -1,15 +1,23 @@
+@font-face {
+    font-family: Early Gameboy;
+        src:url('../src/Early\ GameBoy.ttf')
+  }
+
+
 body {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444444;
+    color: #000000;
     padding: 0 10px;
     background-color: #a0dffa;
+    font-family: Early Gameboy;
 }
 
 h1, h2, h3 {
     line-height: 1.2
+    font-family: Early Gameboy;
 }
 
 .app {
@@ -25,12 +33,12 @@ h1, h2, h3 {
     height: 200px;
     width: 200px;
     border-style: solid;
+    background-color: rgb(255, 255, 255);
 }
 
 .grid div {
     width: 20px;
     height: 20px;
-    background-color: rgb(255, 255, 255);
 }
 
 .snake {

@@ -1,15 +1,23 @@
+@font-face {
+    font-family: Early Gameboy;
+        src:url('../src/Early\ GameBoy.ttf')
+  }
+
 body {
     margin: 40px auto;
     max-width: 600px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444444;
+    color: #000000;
     padding: 0 10px;
-    background-color: #a0dffa;
+    background-color: #755898;
+    font-family: Early Gameboy;
+
 }
 
 h1, h2, h3 {
     line-height: 1
+    font-family: Early Gameboy;
 }
 
 .app {

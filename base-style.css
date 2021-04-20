@@ -1,28 +1,41 @@
+@font-face {
+    font-family: Early Gameboy;
+        src:url('../src/Early\ GameBoy.ttf')
+  }
+
+
+html {
+    background-color: black;
+}
+
 body {
     margin: 40px;
-    max-width: 650px;
+    max-width: 500px;
     line-height: 1.6;
-    font-size: 18px;
-    color: #000000;
-    background-color: #f8cbf9;
+    font-size: 20px;
+    color: #65ff6d;
     position: fixed;
-    top: 40%;
-    left: 50%;
+    top: 30%;
+    left: 45%;
     margin-top: -100px;
-    margin-left: -100px;
+    margin-left: -150px;
 }
 
 h1, h2, h3 {
     line-height: 1.2;
     text-decoration: underline;
+    font-family: Early Gameboy;
+    text-align: center;
 }
 
 ul {
     list-style: none;
+    font-family: Early Gameboy;
+    
   }
   li::before { 
     content: "";
-    border-color: transparent #111;
+    border-color: transparent rgb(255, 255, 255);
     border-style: solid;
     border-width: 0.35em 0 0.35em 0.45em;
     display: block;
@@ -31,6 +44,8 @@ ul {
     left: -1em;
     top: 1.20em;
     position: relative;
+    color: rgb(87, 235, 238);
+    
   }
 
 .github-corner:hover .octo-arm {

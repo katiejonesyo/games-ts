@@ -1,3 +1,3 @@
 # games-ts
 
-A bunch of mini games created using typescript, javasdcript, html, css.
+A bunch of mini games created using typescript, javascript, html, css.
